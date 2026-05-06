@@ -1,0 +1,47 @@
+# Node modules
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Test output / reports / logs
+coverage/
+**/coverage/
+allure-results/
+**/allure-results/
+reports/
+**/reports/
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Lock files for local development
+.pnpm-debug.log*
+
+# Optional: keep a placeholder file
+!.gitkeep
